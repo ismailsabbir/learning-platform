@@ -1,3 +1,27 @@
+:root{
+  --body_background:white;
+  --body_color:black;
+  --link_color:black;
+  --para_color:black;
+  --steven_color:blue;
+  --h_color:rgb(57, 56, 56);
+  --h5_color:rgb(57, 56, 56);
+  --title_color:rgb(45, 45, 45);
+  --name_color:black;
+  --hover_color:rgb(205, 251, 235);
+}
+[data-theme='dark']{
+  --body_background:#282c34;
+  --body_color:white;
+  --link_color:white;
+  --para_color:white;
+  --steven_color:#00ffff;
+  --h_color:#76b5c5;
+  --h5_color:white;
+  --title_color:#76b5c5;
+  --name_color:black;
+  --hover_color:#76b5c5;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

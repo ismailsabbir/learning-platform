@@ -1,0 +1,131 @@
+.about-container{
+    /* border: 1px solid green; */
+    padding: 0px 10px;
+    height: 500px;
+    margin-top: 60px;
+}
+.about-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* .about1{
+    border-bottom: 1px solid gainsboro;
+   
+} */
+.left-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.about-right-text{
+    /* border: 1px solid brown; */
+    text-align: justify;
+    color:var(--h_color);
+    line-height: 1.2;
+    word-spacing: 0.5;
+}
+.about-right-text h5{
+    color:var(--h5_color) ;
+}
+.stars{
+    width: 60px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.mid{
+    width: 80%;
+    /* border: 1px solid goldenrod; */
+  position: absolute;
+  bottom: 0px;
+}
+#mid{
+    height: 450px;
+    position: relative;
+}
+.mid img{
+    width: 100%;
+    height: 400px;
+    margin-left: 10%;
+    /* border: 1px solid gainsboro; */
+    
+}
+#right-about{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: row-reverse;
+}
+#right-star{
+    margin: 0;
+    margin-left: 15px;
+}
+.black-programing-cont{
+    margin-top: 9px;
+    height: 150px;
+    background-color:rgb(21, 18, 38);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.bpr button{
+    width: 200px;
+    background-color: aquamarine;
+    padding: 8px 0px;
+    color: rgb(30, 1, 1);
+    font-weight: 500;
+    border: none;
+}
+.instructor-container{
+    margin-top: 60px;
+}
+.instruc-texs{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hole-instructor{
+    /* border: 1px solid green; */
+    padding-left: 25px;
+}
+@media only screen and (max-width: 687px) {
+.about-container{
+    height: auto;
+}
+
+.black-programing-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bpl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .about-container{
+        height: auto;
+    }
+    
+    .black-programing-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bpl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    }

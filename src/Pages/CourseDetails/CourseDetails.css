@@ -1,0 +1,215 @@
+.buy-cart {
+  width: 250px;
+  margin: auto;
+  border: 1px solid gainsboro;
+  position: sticky;
+  top: 0px;
+}
+.buy-cart p {
+  text-align: center;
+}
+.buy-cart img {
+  width: 100%;
+  height: 200px;
+}
+.buy-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.schedule {
+  width: 80%;
+  margin: auto;
+}
+.schedule h5 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.schedule-con {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  border: 1px solid gainsboro;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: white;
+  padding: 60px 10px;
+}
+.schedule-con p {
+  font-size: 1.2rem;
+}
+.enrol-ore {
+  margin-bottom: 20px;
+  /* border: 1px solid brown; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.enrol-class {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.what-learn h5 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.what-learn-con {
+  width: 80%;
+  margin: auto;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+.learn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid gainsboro;
+  height: 150px;
+  border-radius: 10px;
+}
+.part h5 {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  color: var(--name_color);
+}
+.cariculam {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+.cariculam h4 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cariculam-con {
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid gainsboro;
+  background-color: cadetblue;
+  margin: auto;
+  padding: 15px;
+}
+.cariculam-div {
+  margin-left: 40px;
+  border-left: 4px solid brown;
+  margin: 10px;
+}
+.cari-link {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.specials h4 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.special-con {
+  width: 80%;
+  border: 1px solid gainsboro;
+  margin: auto;
+  background-color: cadetblue;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.special {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.specil-name {
+  padding: 10px;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+.specil-name h6 {
+  color: brown;
+  margin-bottom: 15px;
+}
+.specil-name p{
+  color: var(--name_color);
+}
+.specil-name:hover {
+  background-color: lightblue;
+}
+.access-container{
+  width: 80%;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 30px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  
+}
+.access-link{
+  text-decoration: none;
+  color:var(--name_color) ;
+}
+.access-link button{
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.access-link button:hover{
+  background-color: bisque;
+}
+@media only screen and (max-width: 687px) {
+.schedule{
+  width: 100%;
+}
+.schedule-con{
+  padding: 60px 2px;
+}
+.what-learn-con{
+  width: 100%;
+}
+.cariculam{
+  width: 100%;
+}
+.special-con{
+  width: 100%;
+}
+.access-container{
+  width: 100%;
+}
+  }
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+  .schedule{
+    width: 100%;
+  }
+  .schedule-con{
+    padding: 60px 2px;
+  }
+  .what-learn-con{
+    width: 100%;
+  }
+  .cariculam{
+    width: 100%;
+  }
+  .special-con{
+    width: 100%;
+  }
+  .access-container{
+    width: 100%;
+  }
+  }

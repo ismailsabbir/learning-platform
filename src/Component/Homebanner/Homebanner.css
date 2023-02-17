@@ -1,0 +1,41 @@
+.carousel-cont {
+  width: 100%;
+  height: 450px;
+}
+.carousel-item {
+  width: 100%;
+  height: 450px;
+}
+.carousel-item img {
+  height: 100%;
+}
+/* #img3 {
+  opacity: 0.8;
+} */
+.carousel-caption {
+  margin-bottom: 100px;
+}
+.carousel-caption h2 {
+  font-weight: 600;
+}
+.carousel-caption p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.search {
+  height: 50px;
+  border: none;
+  width: 400px;
+  padding-left: 15px;
+}
+.search-btn {
+  border: none;
+  background-color: aquamarine;
+  height: 50px;
+}
+@media only screen and (max-width: 600px) {
+.search{
+  width: 300px;
+  /* border: 1px solid white; */
+}
+  }

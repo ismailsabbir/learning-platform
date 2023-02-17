@@ -1,0 +1,119 @@
+.contact-type-cont{
+    /* border: 1px solid brown; */
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.contact1{
+    border: 1px solid gainsboro;
+    border-top: 2px solid violet;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.contact1:hover{
+    border-top: 2px solid brown;
+    background-color:var(--hover_color);
+    transition: ease 1ms;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.visit{
+    width: 50px;
+    height: 50px;
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+.message-box-cont{
+    width: 100%;
+    /* border: 1px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+    
+}
+.form-div{
+    width: 80%;
+    border: 1px solid gainsboro;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border-top: 2px solid violet;
+}
+.form-div:hover{
+    border-left: 2px solid brown;
+}
+.name{
+    width: 30%;
+    height: 60px;
+    margin: 13px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.message{
+    width: 100%;
+    height: 110px;
+    /* margin: 15px; */
+}
+.message input{
+    margin-top: 20px;
+    padding-left: 15px;
+    /* margin-bottom: 20px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.mess-sent-btn{
+    margin-top: 50px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    border: none;
+    width: 100%;
+    height: 70px;
+    background-color: blanchedalmond;
+    color: rgb(51, 50, 50);
+    font-weight: 500;
+    border-radius: 6px;
+}
+@media only screen and (max-width: 687px) {
+.contact1{
+    width: 80%;
+    margin-bottom: 15px;
+}
+.contact-type-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    width: 100%;
+}
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .contact1{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .contact-type-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .name{
+        width: 100%;
+    }
+            }

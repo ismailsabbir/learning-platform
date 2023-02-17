@@ -1,0 +1,32 @@
+.notfound-container{
+    background-image: url('../../Assets/Images/404.jpg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+   
+}
+.notfound{
+    /* border: 1px solid gainsboro; */
+    color: white;
+    width: 50%;
+    margin: auto;
+    /* margin-left: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.notfound button{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.notfound-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

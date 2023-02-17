@@ -1,0 +1,41 @@
+.ind-instructor{
+    width: 200px;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+.ind-instructor img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name-pos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name-pos h6{
+    margin-right: 10px;
+}
+.name-pos p{
+    margin-top: 8px;
+}
+.prog{
+    margin-bottom: 35px;
+}
+.ind-instructor button{
+    /* margin-top: 20px; */
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border: none;
+    background-color: rgb(19, 32, 32);
+    color: white;
+    padding: 8px 0px;
+    border-radius: 0px 0px 10px 10px;
+}

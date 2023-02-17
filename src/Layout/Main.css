@@ -1,0 +1,23 @@
+.row {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 687px) {
+.row{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+  .row{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  }

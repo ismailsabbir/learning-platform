@@ -1,0 +1,110 @@
+.types-course{
+  margin-top: 50px;
+  position: sticky;
+  top:10px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.course-type {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  border-left: 1px solid brown;
+}
+#course-categori {
+  text-decoration: none;
+  color:var(--para_color);
+}
+.carousel-container{
+  width: 100%;
+  height: 250px;
+  border: 1px solid gainsboro;
+
+}
+.item{
+  width: 100%;
+  height: 100%;
+}
+.item img{
+  width: 100%;
+  height: 250px;
+  opacity: 0.5;
+}
+.item img:hover{
+  opacity: 1;
+  transition:ease 1s;
+}
+#slide2 img{
+  height: 250px;
+}
+.register-btn{
+  width: 100%;
+  margin: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.link:hover{
+  color: tomato;
+  font-weight: 500;
+}
+.links{
+  text-decoration: none;
+  color: var(--para_color);
+  font-weight: 500;
+}
+.links:hover{
+  color: white;
+}
+.left-latest-news{
+  width: 100%;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  position: relative;
+}
+.left-news-1{
+  width: 50%;
+}
+.left-news-1 img{
+  width: 100%;
+  height: 100%;
+}
+.mid-latest{
+  position: absolute;
+  left: 33%;
+  top: 44%;
+  color: darkslategrey;
+  font-weight: 600;
+}
+@media only screen and (max-width: 687px) {
+.left-latest-news{
+  display: none;
+}
+.types-course{
+  margin-top: 50px;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* border-bottom: 1px solid brown; */
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+  .types-course{
+    margin-top: 50px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* border-bottom: 1px solid brown; */
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+  }
