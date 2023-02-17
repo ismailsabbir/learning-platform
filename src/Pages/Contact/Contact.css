@@ -92,14 +92,32 @@
     width: 80%;
     margin-bottom: 15px;
 }
+.message-box-cont{
+    /* border: 1px solid brown; */
+    margin-left: 14px;
+}
 .contact-type-cont{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.name{
+.form-div{
     width: 100%;
+    padding: 0px;
+    
+}
+.name-email-phon{
+    margin: auto;
+}
+.name{
+    width: 95%;
+    height: 60px;
+}
+.message{
+    width: 95%;
+    height: 80px;
+    margin: auto;
 }
 }
 @media only screen and (min-width:688px) and (max-width:992px) {

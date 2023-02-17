@@ -84,17 +84,29 @@
   font-weight: 600;
 }
 @media only screen and (max-width: 687px) {
-.left-latest-news{
+/* .left-latest-news{
   display: none;
-}
+} */
 .types-course{
+  width: 100%;
   margin-top: 50px;
   height: auto;
   overflow-x: hidden;
   overflow-y: hidden;
-  /* border-bottom: 1px solid brown; */
+  /* border: 1px solid brown; */
   padding-right: 10px;
   margin-bottom: 20px;
+  margin-left: 14px;
+}
+.register-btn{
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.course-type{
+  display: block;
+  /* border: 2px solid brown; */
+ 
 }
 }
 @media only screen and (min-width:688px) and (max-width:992px) {

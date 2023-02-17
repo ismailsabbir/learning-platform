@@ -74,8 +74,13 @@
     transition: ease 1ms;
 }
 @media only screen and (max-width: 687px) {
+    .blog-container{
+        margin-left: 14px;
+        /* border: 1px solid brown; */
+    }
 .blog{
-    width: 90%;
+    width: 98%;
+   
 }
     }
     @media only screen and (min-width:688px) and (max-width:992px) {

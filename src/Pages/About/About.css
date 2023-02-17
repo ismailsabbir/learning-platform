@@ -96,19 +96,41 @@
 @media only screen and (max-width: 687px) {
 .about-container{
     height: auto;
+    width: 100%;
+    border: 1px solid brown;
+    margin-left: 13px;
 }
-
+#mid{
+    height: 300px;
+}
+.mid img{
+    height: 300px;
+}
 .black-programing-cont{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 13px;
 }
 .bpl{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.bpl h4{
+    font-family: 400;
+    font-size: 1rem;
+}
+.instructor-container{
+    /* border: 1px solid brown; */
+    margin-left: 14px;
+}
+.hole-instructor{
+    margin: auto;
+    /* border: 1px solid green; */
 }
 }
 @media only screen and (min-width:688px) and (max-width:992px) {

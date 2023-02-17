@@ -35,7 +35,7 @@ githubacount()
 })
   }
   useEffect(() => {
-    fetch(`http://localhost:5000/categories`)
+    fetch(`https://learning-platfrom-server-ismailsabbir.vercel.app/categories`)
       .then((res) => res.json())
       .then((data) => setcategories(data));
   });

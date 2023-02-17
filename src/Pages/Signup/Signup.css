@@ -103,3 +103,32 @@
     margin-top: 15px;
     color: tomato;
 }
+@media only screen and (max-width: 688px) {
+    .signup-container{
+        margin: 0px;
+        padding: 0px;
+        /* border: 1px solid brown; */
+        margin-left: 10px;
+    }
+.hole-register{
+    width: 100%;
+}
+.register-left{
+    display: none;
+}
+.register-right{
+    width: 100%;
+}
+}
+ @media only screen and (min-width:688px) and (max-width:992px) {
+.hole-register{
+    width: 90%;
+    margin: auto;
+}
+.signup-container{
+    margin: 0px;
+    padding: 20px 0px;
+    /* border: 1px solid brown; */
+    margin-left: 10px;
+}
+}

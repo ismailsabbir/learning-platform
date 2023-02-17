@@ -389,7 +389,7 @@
   border: 1px solid green;
 }
 @media only screen and (max-width: 687px) {
-.course-types{
+#home-course-type{
   display: none;
 }
 .find-course-cont{
@@ -401,16 +401,23 @@
   margin-bottom: 30px;
   margin-left: 10px;
 }
+
 .find-course-news{
   width: 100%;
   height: auto;
+  /* border: 1px solid green; */
+  margin-left: 14px;
 }
 .black-banner-con{
+  width: 100%;
+  border: 1px solid brown;
   height: auto;
   padding-bottom: 20px;
+  margin-left: 14px;
 }
 .student{
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 .subscribe-cont{
   padding: 20px 0px;
@@ -419,14 +426,22 @@
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
+  margin-left: 14px;
 }
 .subscribe-cont h4{
   margin-top: 10px;
+}
+.email-sub input{
+  width: 200px;
+}
+.email-sub button{
+  width: 100px;
 }
 .latest-news-cont{
   width: 100%;
   padding: 0px;
   /* border: 1px solid gray; */
+  margin-left: 14px;
 }
 .news1{
   width: 100%;
@@ -491,7 +506,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: auto;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -499,12 +514,16 @@
 .event-course-cal{
   width: 100%;
   /* border: 2px solid brown; */
+  padding: 0px;
+  margin: 0px;
   margin: auto;
+  margin-left: 14px;
 }
 .event-course-hole{
   width: 100%;
   margin: auto;
   /* border: 1px solid green; */
+  margin-left: 13px;
 }
 .calender{
   width: 100%;
@@ -522,12 +541,13 @@
 }
 #tarik{
   padding-bottom:20px ;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 .next-cont{
   width: 100%;
   height: auto;
   padding-top: 15px;
+  margin-left: 14px;
 }
 .next-row{
   display: flex;
@@ -543,7 +563,7 @@
 }
 }
 @media only screen and (min-width:688px) and (max-width:992px) {
-  .course-types{
+  #home-course-type{
     display: none;
   }
   .find-course-cont{
@@ -554,6 +574,7 @@
     margin: auto;
     margin-bottom: 30px;
     margin-left: 10px;
+    
   }
   .find-course-news{
     width: 100%;

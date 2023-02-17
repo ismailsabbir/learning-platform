@@ -57,14 +57,24 @@
     margin-left: 40px;
 }
 @media only screen and (max-width: 687px) {
+
 #blog-news{
-    width: 90%;
+    width: 98%;
+    /* margin-left: 14px; */
+    /* border: 1px solid brown; */
+}
+.news-container{
+    /* border: 1px solid brown; */
+    margin-left: 14px;
 }
 .newss{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* border: 1px solid brown; */
+    width: 98%;
+    
 }
 .news{
     margin-bottom: 25px;

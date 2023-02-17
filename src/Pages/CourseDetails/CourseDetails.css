@@ -174,21 +174,51 @@
 @media only screen and (max-width: 687px) {
 .schedule{
   width: 100%;
+  margin-left: 14px;
+  
 }
 .schedule-con{
-  padding: 60px 2px;
+  height: auto;
+  padding: 20px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}.enrol-ore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.enrol-class{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .what-learn-con{
   width: 100%;
+  height: auto;
+  margin-left: 14px;
+}
+.learn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
 }
 .cariculam{
   width: 100%;
+  margin-left: 14px;
 }
 .special-con{
   width: 100%;
+  margin-left: 14px;
 }
 .access-container{
   width: 100%;
+  margin-left: 14px;
 }
   }
 

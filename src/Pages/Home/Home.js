@@ -74,7 +74,7 @@ counter3.innerText=count3;
 
   return (
     <div>
-      <div className="course-types">
+      <div className="course-types" id="home-course-type">
         {catrgories.map((category) => (
           <p>
             <Link
@@ -90,7 +90,7 @@ counter3.innerText=count3;
 
       <div className="find-course-cont">
         <div>
-          <Row>
+          <Row className="find-course-row">
             <Col className="find-course-news" id="news-home" lg="3">
               <h5>School News</h5>{" "}
               <p className="newss-text">
